@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome, {{ username }}!</h1>
+    <p class="lead">This is the Product Management System dashboard.</p>
+    <hr class="my-4">
+    <p>Use the menu button in the navigation bar to access system features.</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="/menu" role="button">Open Menu</a>
+    </p>
+</div>
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Data Management</h3>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Inventory</h5>
+                        <p class="card-text">Manage inventory and stock levels</p>
+                        <a href="/inventory" class="btn btn-primary">Go to Inventory</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Categories</h5>
+                        <p class="card-text">Manage product categories</p>
+                        <a href="#" class="btn btn-secondary disabled">Categories (Coming Soon)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Suppliers</h5>
+                        <p class="card-text">Manage product suppliers</p>
+                        <a href="#" class="btn btn-secondary disabled">Suppliers (Coming Soon)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
